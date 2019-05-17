@@ -3,8 +3,7 @@
 		"package": "site.geni.narratorbind.mixin",
 		"compatibilityLevel": "JAVA_8",
 		"client": [
-				"client.KeyboardMixin",
-				"client.KeyBindingListWidgetMixin"
+				"client.KeyboardMixin"
 		],
 		"minVersion": "0.7.11",
 		"injectors": {
