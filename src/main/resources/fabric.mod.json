@@ -22,6 +22,7 @@
 		"mixins": [
 				"narratorbind.mixins.json"
 		],
+		"icon": "assets/narratorbind/icon.png",
 		"requires": {
 				"fabricloader": ">=0.4.0",
 				"fabric-api-base": ">=0.1.0",
