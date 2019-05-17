@@ -1,0 +1,35 @@
+{
+		"schemaVersion": 1,
+		"id": "narratorbind",
+		"version": "${version}",
+		"name": "NarratorBind",
+		"description": "Moves the narrator to a keybind.",
+		"authors": [
+				"geni"
+		],
+		"contact": {
+				"homepage": "https://minecraft.curseforge.com/projects/console-hud-fabric",
+				"sources": "https://github.com/polgaria/consolehud/",
+				"issues": "https://github.com/polgaria/consolehud/issues"
+		},
+		"license": "MIT",
+		"environment": "client",
+		"entrypoints": {
+				"client": [
+						"site.geni.narratorbind.NarratorBind"
+				]
+		},
+		"mixins": [
+				"narratorbind.mixins.json"
+		],
+		"requires": {
+				"fabricloader": ">=0.4.0",
+				"fabric-api-base": ">=0.1.0",
+				"fabric-events-lifecycle": ">=0.1.0",
+				"fabric-resource-loader-v0": ">=0.1.0",
+				"fabric-keybinds-v0": ">=0.1.0"
+		},
+		"custom": {
+				"modmenu:clientsideOnly": true
+		}
+}

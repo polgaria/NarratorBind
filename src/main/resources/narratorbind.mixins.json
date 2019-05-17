@@ -1,0 +1,13 @@
+{
+		"required": true,
+		"package": "site.geni.narratorbind.mixin",
+		"compatibilityLevel": "JAVA_8",
+		"client": [
+				"client.KeyboardMixin",
+				"client.KeyBindingListWidgetMixin"
+		],
+		"minVersion": "0.7.11",
+		"injectors": {
+				"defaultRequire": 1
+		}
+}
