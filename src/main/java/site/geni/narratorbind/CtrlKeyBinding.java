@@ -1,7 +1,7 @@
 package site.geni.narratorbind;
 
 import net.fabricmc.fabric.api.client.keybinding.FabricKeyBinding;
-import net.minecraft.client.gui.Screen;
+import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.util.InputUtil;
 import net.minecraft.util.Identifier;
 
